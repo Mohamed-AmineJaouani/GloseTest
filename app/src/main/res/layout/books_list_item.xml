@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <!--This ImageView holds the image for one particular book-->
+    <ImageView
+        android:id="@+id/iv_book_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:minWidth="100dp"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:contentDescription="@string/book_s_image" />
+
+    <!--This TextView holds the title for one particular book-->
+    <TextView
+        android:id="@+id/tv_book_description"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginBottom="60dp"
+        />
+</LinearLayout>
